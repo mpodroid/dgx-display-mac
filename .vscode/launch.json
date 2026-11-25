@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:dgx-display-mac}",
+            "name": "Debug DGXDisplay",
+            "target": "DGXDisplay",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug DGXDisplay"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:dgx-display-mac}",
+            "name": "Release DGXDisplay",
+            "target": "DGXDisplay",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release DGXDisplay"
+        }
+    ]
+}
